@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+.outContainer{
+ border: 1px solid grey;
+}
+.headContainer{
+    border: 1px solid gray;
+    padding: 20px;
+}
+.body1Container{
+    width: 100%;
+    height: 400px;
+    border: 1px solid gray;
+   // padding: 150px;
+    background-image: url(./images/lap2.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center
+    
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.body2Container{
+    border: 1px solid gray;
+    position: relative;
+    //padding: 140px;
+}
+.body1Container h1,p{
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+  
+}
+.body1Container p{
+    width: 100%;
+}
+
+.body1Container div button{
+   width: auto;
+   padding: 10px;
+   margin: 10px;
+   cursor: pointer;
+}
+
+.body1Container .btn1{
+    border: none;
+    color: white;
+    background-color: lightseagreen;
+
+}
+.body1Container .btn2{
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navList li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+.navList li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navList li a:hover{
+    color: lightseagreen;
+    font-size: 16px;
+}
+
+.logo i,.logo h1{
+    font-size: 25px;
+    color: lightseagreen;
+    display: inline;
+}
+.logo h1 span{
+    color: red;
+}
+
+.logo h1:hover{
+    font-size: 26px;
+    cursor: pointer;
+}
+.body2Container h5,.body2Container h1{
+    text-align: center;
+}
+.body2Container div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+}
+.body2Container i{
+    margin-left: 100px;
+    font-size: 50px;
+    background-color: gray;
+    padding: 13px;
+    width: 90px;
+    border-radius: 50%;
+    color: white;
+   
+}
